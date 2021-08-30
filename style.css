@@ -1,0 +1,57 @@
+
+p {
+	font-size: 17px;
+	font-family: Arial, sans-serif;
+	color: rgb(145, 145, 145);
+    word-spacing: 1px;
+}
+
+a:visited {
+    font-size: 17px;
+	font-family: Arial, sans-serif;
+	color:darkmagenta;
+    word-spacing: 1px;
+}
+
+a:hover {
+    font-size: 17px;
+	font-family: Arial, sans-serif;
+	color: darkmagenta;
+    word-spacing: 1px;
+}
+
+td{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+th{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+html{
+    background-color: rgb(39, 32, 32);
+    color: blanchedalmond;
+}
+
+article{
+width: 90%;
+}
+
+q{
+    font-size: 160%;
+    width: 50%;
+    background-color: rgb(250, 255, 174);
+    border-left: 10px solid firebrick;
+    color: rgb(90, 90, 90);
+    padding-left: 30px;
+}
+
+blockquote{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+}
