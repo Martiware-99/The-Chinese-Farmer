@@ -29,8 +29,9 @@ th{
 }
 
 html{
-    background-color: rgb(39, 32, 32);
-    color: blanchedalmond;
+background: linear-gradient(180deg, rgb(59, 50, 50), rgb(0, 0, 0));
+color: blanchedalmond;
+
 }
 
 article{
@@ -44,6 +45,7 @@ q{
     border-left: 10px solid firebrick;
     color: rgb(90, 90, 90);
     padding-left: 30px;
+    font-style: italic;
 }
 
 blockquote{
@@ -51,7 +53,93 @@ blockquote{
     margin-bottom: 80px;
 }
 
-footer{
-    background-color: black;
-    width: 100%;
+.villagers{
+border-left: 5px solid chartreuse;
+font-style: italic;
+}
+
+.farmer{
+    border-left: 5px solid crimson;
+    font-style: italic;
+}
+
+
+.good{
+    color: green;
+}
+
+.bad{
+    color: red;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+.bien{
+    background-image: url("bien.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 80px;
+}
+
+.mal{
+    background-image: url("mal.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 80px;
+}
+
+.chat{
+    background-image: url("chat.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 80px;
+}
+
+li{
+    line-height: 300%;
+}
+
+section{
+display: flex;
+}
+
+.party{
+    justify-content: right;
+    width: 350px;
+    height: 250px;
+    padding-left: 95px;
+}
+
+.space{
+    display: flex;
+}
+
+.mars{
+    justify-content: right;
+    width: 350px;
+    height: 250px;
+}
+
+.title{
+    color: blanchedalmond;
+    text-decoration: underline purple;
+}
+
+.main{
+    display: flex;
+}
+
+.chinese{
+    justify-content: right;
+    width: 350px;
+    height: 250px;
+    order: 2;
+}
+
+.text{
+    justify-content: left;
+    order: 1;
 }
